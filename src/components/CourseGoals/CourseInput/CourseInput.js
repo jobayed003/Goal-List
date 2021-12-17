@@ -76,9 +76,6 @@ const CourseInput = props => {
           name="enteredValue"
           onChange={goalInputChangeHandler}
         />
-
-        {/* <input type="text" value={name} name="name" onChange={handleChange} />
-        <input type="text" value={email} name="email" onChange={handleChange} /> */}
       </FormControl>
       <Button type="submit">Add Goal</Button>
     </form>
